@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+targetCompatibility = 11
+sourceCompatibility = 11
+version '1.0-SNAPSHOT'
+group 'Guru Bank'
+
+repositories{
+    mavenCentral()
+}
+
+dependencies{
+    testImplementation group: 'junit', name: 'junit', version:'4.12'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '4.2.0'
+    testImplementation 'io.cucumber:cucumber-junit:4.2.0'
+    //implementation group: 'com.aventstack', name: 'extentreports-cucumber4-adapter', version: '1.0.7'
+}
+
+/*test {
+    systemProperty "cucumber.options", System.getProperty("cucumber.options")
+}*/

@@ -1,0 +1,16 @@
+pages/ManagerPage.java
+ pages.ManagerPage
+pages/BasePage.java
+ pages.BasePage
+runner/Runner.java
+ runner.Runner
+steps/ManagerSteps.java
+ steps.ManagerSteps
+pages/CustomerPage.java
+ pages.CustomerPage
+pages/GuruBankPage.java
+ pages.GuruBankPage
+steps/GuruBankSteps.java
+ steps.GuruBankSteps
+steps/CustomerSteps.java
+ steps.CustomerSteps
